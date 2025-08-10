@@ -8,6 +8,8 @@ const Home = () => {
     "Basic chat": "basic-chat",
     "Function calling": "function-calling",
     "File search": "file-search",
+        "Windcompli chat": "windcompli-chat",
+
     All: "all",
   };
 
