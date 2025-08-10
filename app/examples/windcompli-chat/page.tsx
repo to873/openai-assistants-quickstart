@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Chat from "../../components/chat";
+import RagChat from "../../components/rag-chat";
 import styles from "./page.module.css";
 
 const WindcompliPage = () => {
@@ -58,7 +58,7 @@ const WindcompliPage = () => {
           <input type="file" onChange={handleFileChange} />
         </label>
       </div>
-      <Chat />
+      <<RagChat />
     </main>
   );
 };
