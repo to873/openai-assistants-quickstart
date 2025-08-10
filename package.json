@@ -13,6 +13,9 @@
     "openai": "^4.46.0",
     "react": "^18",
     "react-dom": "^18",
+      "@pinecone-database/pinecone": "^0.0.0",
+  "pdf-parse": "^1.1.1",
+
     "react-markdown": "^9.0.1"
   },
   "devDependencies": {
