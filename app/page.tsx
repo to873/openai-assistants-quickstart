@@ -4,14 +4,15 @@ import React from "react";
 import styles from "./page.module.css";
 
 const Home = () => {
-  const categories = {
-    "Basic chat": "basic-chat",
-    "Function calling": "function-calling",
-    "File search": "file-search",
-        "Windcompli chat": "windcompli-chat",
+  cconst categories = {
+  "Basic chat": "basic-chat",
+  "Function calling": "function-calling",
+  "File search": "file-search",
+  "Windcompli chat": "windcompli-chat",
+  All: "all",
+};
+categories["Windcompli dashboard"] = "windcompli-dashboard";
 
-    All: "all",
-  };
 
   return (
     <main className={styles.main}>
